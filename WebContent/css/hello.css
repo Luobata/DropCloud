@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	border: 0;
+	padding: 0;
+}
+
+.back{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.hello{
+	position: absolute;
+	top:55px;
+	left:110px;
+
+}
+
+.login_area{
+	position: absolute;
+	top:265px;
+	width: 420px;
+	height: 220px;
+	background-color: rgba(255,255,255,0.8);
+	padding-top: 16px;
+}
+
+form{
+	margin-left: 100px;
+}
+.user,.password{
+	
+	width: 285px;
+	height: 44px;
+	background-color: rgba(255,255,255,0);
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #ccc;
+
+
+}
+
+.login,.reg{
+  margin-top: 20px;
+	height: 40px;
+	width: 130px;
+
+}
+
+.login{
+	background-color: #51a1e9;
+	color: #fff;
+}
+
+.reg{
+	background-color: #999;
+	color: #fff;
+	margin-left: 16px;
+}
